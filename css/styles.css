@@ -246,3 +246,80 @@ p {
 	height: 75px;
 	object-fit: contain;
 }
+
+/* qualite-education */
+.qualite-education {
+	padding-top: 160px;
+	padding-bottom: 160px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.qualite-education__img-wrapper {
+	position: relative;
+	width: 508px;
+	height: 363px;
+	margin-right: 40px;
+}
+
+.qualite-education__link {
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+
+.qualite-education__link:hover {
+	filter: blur(3px);
+}
+
+.qualite-education__link img {
+	border-radius: 14px;
+}
+
+.qualite-education__icon {
+	position: absolute;
+	top: calc(50% - 46px);
+	left: calc(50% - 46px);
+	cursor: pointer;
+}
+
+.qualite-education__info {
+	max-width: 381px;
+	width: 100%;
+	color: var(--white-color);
+}
+
+.qualite-education__line {
+	border: none;
+	display: inline-block;
+	margin-bottom: 35px;
+	width: 94px;
+	height: 7px;
+	background-color: var(--orange-color);
+}
+
+.qualite-education__title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.25;
+	letter-spacing: 0.2px;
+	margin-bottom: 35px;
+}
+
+.qualite-education__text {
+	margin-bottom: 35px;
+}
+
+.qualite-education__learn {
+	display: inline-block;
+	color: var(--violat-color);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.2px;
+}
+
+.qualite-education__learn span {
+	display: inline-block;
+	margin-left: 10px;
+}
