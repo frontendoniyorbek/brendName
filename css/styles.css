@@ -283,13 +283,13 @@ p {
 	cursor: pointer;
 }
 
-.qualite-education__info {
+.brendName-main {
 	max-width: 381px;
 	width: 100%;
 	color: var(--white-color);
 }
 
-.qualite-education__line {
+.brendName-main__line {
 	border: none;
 	display: inline-block;
 	margin-bottom: 35px;
@@ -298,7 +298,7 @@ p {
 	background-color: var(--orange-color);
 }
 
-.qualite-education__title {
+.brendName-main__title {
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 1.25;
@@ -306,11 +306,11 @@ p {
 	margin-bottom: 35px;
 }
 
-.qualite-education__text {
+.brendName-main__text {
 	margin-bottom: 35px;
 }
 
-.qualite-education__learn {
+.brendName-main__learn {
 	display: inline-block;
 	color: var(--violat-color);
 	font-weight: 700;
@@ -319,7 +319,22 @@ p {
 	letter-spacing: 0.2px;
 }
 
-.qualite-education__learn span {
+.brendName-main__learn span {
 	display: inline-block;
 	margin-left: 10px;
+}
+
+/* live-action */
+.live-action {
+	padding-top: 160px;
+	padding-bottom: 160px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.live-action__img-wrapper {
+	position: relative;
+	max-width: 502px;
+	width: 100%;
 }
