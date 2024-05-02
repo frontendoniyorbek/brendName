@@ -5,6 +5,7 @@
 	--orange-color: #e74040;
 	--bg-color: #26335d;
 	--line-height: 1.5;
+	--grey-color: #737373;
 }
 
 @font-face {
@@ -348,6 +349,7 @@ p {
 .get-quality {
 	padding-top: 112px;
 	padding-bottom: 112px;
+	margin-bottom: 24px;
 }
 
 .get-quality__list {
@@ -476,7 +478,7 @@ p {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.4;
-	color: #737373;
+	color: var(--grey-color);
 	letter-spacing: 0.2px;
 }
 
@@ -493,7 +495,7 @@ p {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.4;
-	color: #737373;
+	color: var(--grey-color);
 	letter-spacing: 0.2px;
 }
 
@@ -511,7 +513,7 @@ p {
 }
 
 .get-quality__value-cost {
-	color: #737373;
+	color: var(--grey-color);
 	margin-right: 5px;
 }
 
@@ -543,4 +545,82 @@ p {
 
 .learn-more:active {
 	opacity: 0.6;
+}
+
+/* vidio-live */
+.vidio-live {
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+
+.vidio-live__list {
+	margin-top: -16px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.vidio-live__item:not(:last-child) {
+	margin-right: 30px;
+}
+
+.vidio-live__item {
+	max-width: 508px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--white-color);
+	padding-top: 25px;
+	padding-bottom: 30px;
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+
+.vidio-live__item:hover {
+	box-shadow: 0px 25px 20px -20px var(--orange-color), 25px 0 20px -20px var(--violat-color);
+}
+
+.vidio-live__img {
+	border-radius: 50%;
+}
+
+.vidio-live__info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 320px;
+	width: 100%;
+	text-align: center;
+}
+
+.vidio-live__text {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.4;
+	letter-spacing: 0.2px;
+	margin-bottom: 15px;
+	color: var(--grey-color);
+}
+
+.vidio-live__img-star {
+	margin-bottom: 15px;
+}
+
+.vidio-live__title {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	color: var(--text-color);
+	margin-bottom: 5px;
+}
+
+.vidio-live__title6 {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.2px;
+	color: var(--grey-color);
 }
