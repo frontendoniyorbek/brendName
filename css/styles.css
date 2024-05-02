@@ -411,6 +411,17 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+
+.get-quality__item-icon:hover {
+	background-color: var(--violat-color);
+	color: var(--white-color);
+}
+
+.get-quality__item-icon:active {
+	opacity: 0.6;
 }
 
 .get-quality__info {
