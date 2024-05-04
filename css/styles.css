@@ -689,3 +689,59 @@ p {
 .our-popular__social-link svg:hover {
 	color: var(--grey-color);
 }
+
+/* our-popular */
+.popular-courses {
+	padding-top: 160px;
+	padding-bottom: 160px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.popular-courses__info {
+	max-width: 692px;
+	width: 100%;
+	text-align: center;
+	color: var(--white-color);
+	margin-bottom: 80px;
+}
+
+.popular-courses__title6 {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.2px;
+	margin-bottom: 10px;
+	color: var(--violat-color);
+}
+
+.popular-courses__title {
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 10px;
+	line-height: 1.25;
+	letter-spacing: 0.2px;
+}
+
+.popular-courses__form {
+	width: 100%;
+	display: flex;
+	border: 1px solid #f9f9f9;
+	background-color: var(--white-color);
+	border-radius: 5px;
+}
+
+.popular-courses__form input {
+	width: 70%;
+	border-radius: 5px 0px 0px 5px;
+	border: 0px;
+	flex-grow: 1;
+	padding: 15px 20px;
+	color: var(--grey-color);
+}
+
+.popular-courses__form button {
+	border-radius: 0px 5px 5px 0px;
+}
